@@ -1,0 +1,394 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.header{
+	overflow: hidden;
+	background-color: #121B2A;
+	padding: 8px 0;
+	box-shadow: -2px 12px 9px 3px rgba(23,3,3,0.8);
+	-webkit-box-shadow: -2px 12px 9px 3px rgba(23,3,3,0.8);
+	-moz-box-shadow: -2px 12px 9px 3px rgba(23,3,3,0.8);
+	position: relative;
+}
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{}
+
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style-type: none;
+	text-align: right;
+	margin-top: 55px;
+}
+.menu ul li{
+	display: inline-block;
+	transform: color;
+}
+.menu ul li a{
+	display: block;
+	color: #A9ADB2;
+	text-decoration: none;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color:#046CAB;
+	transition: 0.3s;
+	text-decoration: underline;
+	border-bottom-color: white;
+}
+.active{
+	color: #046CAB !important;
+}
+
+.login{
+	position: absolute;
+	top: 5px;
+	right:70px;
+}
+.login a{
+	background-color:#fff;
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	margin-left: -5px;
+}
+.employee{
+	background-color: #0078BD !important;
+	color:#FFFFEF !important;
+}
+
+
+/*banner css start*/
+
+.banner{
+	background-image: url("../images/man tuch.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+}
+.delivering-mobile{
+	width: 50%;
+	padding-top: 300px
+}
+.delivering-mobile h3{
+	color: #FEFEFF;
+	text-transform: capitalize;
+	padding-bottom: 7px;
+	font-weight: 400;
+	font-size: 32px;
+}
+.delivering-mobile h2{
+	color: #0075B8;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	font-size: 37px;
+}
+.delivering-mobile p{
+	color: #EFEFF0;
+	padding-bottom: 40px;
+	line-height: 25px;
+	padding-right: 90px;
+}
+.delivering-mobile a{
+	color: #5A5A5A;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 10px 30px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+}
+
+
+/*service css start*/
+
+.service{
+	overflow: hidden;
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.service-box{
+	width: 32%;
+	float: left;
+}
+.service-box:nth-child(2){
+	padding-left: 2%;
+	padding-right: 2%;
+	border-left: 1px solid #1A2430;
+	border-right: 1px solid #1A2430;
+}
+.service-box:nth-child(3){
+	padding-left: 40px;
+}
+.service-img{
+	overflow: hidden;
+}
+.service-images{
+	width: 20%;
+	float: left;
+	padding-bottom: 20px;
+}
+.service-images img{
+	width: 80px;
+	height: 80px;
+}
+
+.srv-img-title{
+	width: 80%;
+	float: left;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+.srv-img-title span{
+	color:#F1F1F2;
+	font-size: 22px;
+}
+.srv-img-title h2{
+	color: #0178BD;
+	font-size: 25px;
+	padding-top: 10px;
+}
+.service-box p{
+	color:#B7BABF;
+	line-height: 25px;
+	word-spacing: 2px;
+	padding-right: 40px; 
+}
+
+
+/*contact css start*/
+
+.contact{
+	overflow: hidden;
+	background-color: #040811;
+	polygon(56% 100%, 100% 100%, 56% 84%);
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.container2{
+	width: 85%;
+	margin: 0 auto;
+}
+.contact-inc{
+	width:32%;
+	float: left;
+	margin-top: 20px;
+}
+.contact-inc h3{
+    color: #F2F2F1;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contact-inc h3 span{
+    color: #0272B5;
+    font-weight: bold;
+}
+.contact-inc p{
+    color: #9FA1A6;
+    line-height: 24px;
+    padding: 20px 0px;
+}
+.contact-inc table{
+    width: 100%;
+    color: #B1B5B6;
+}
+.contact-inc table tr td a{
+	text-decoration: none;
+	color:#B1B5B6;
+}
+.email{
+	padding-top:20px;
+}
+
+
+/*testimonal css start*/
+
+.testimonial{
+	width:32%;
+	float: left;
+}
+.testi-content h3{
+	color: #F2F2F1;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.testi-content{
+	padding: 20px;
+	background-color: #0C1019;
+	position: relative;
+}
+.testi-content::before{
+	    content: '';
+    width: 0;
+    height: 0;
+    border-top: 35px solid #0C1019;
+    border-right: 65px solid transparent;
+    top: 188px;
+    position: absolute;
+    left: 251px;
+}
+.testi-content h3 span{
+	color: #0272B5;
+	font-weight: bold;
+}
+.testi-content p{
+	color: #8A8D91 !important;
+	display: block;
+	line-height: 25px;
+	margin-top: 25px;
+}
+.rhoda{
+	color: #A2A1A7;
+	font-weight: bold;
+	display: block;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 35px
+}	
+.testimonial a{
+	text-decoration: none;
+	color: #B4B5BA;
+	display: block;
+	padding-left: 20px;
+}
+
+/*APP SOTRE CSS START*/
+
+.mobile-app{
+	width:32%;
+	float: right;
+	overflow: hidden;
+}
+.mobile{
+	width: 40%;
+	float: left;
+}
+.mobile img{
+	width: 100%;
+}
+
+.android{
+	width: 60%;
+	float: right;
+	padding-left: 20px;
+}
+.android span{
+	color:#FEFFFF;
+	font-size: 20px
+}
+.android h2{
+	color: #0075B8;
+	margin:15px 0px; 
+}
+
+.android-img-content{
+	background-color: #fff;
+	overflow: hidden;
+    padding: 7px 0px 5px 11px;
+	border-radius: 8px;
+}
+.andrioid-img {
+    width: 20%;
+    float: left;
+}
+.android-img img{
+	width: 100%;
+}
+
+.android-img-title{
+	width: 80%;
+	float: right;
+}
+.android-img-title p{
+	font-size: 14px;
+}
+.android-img-title h3{
+	font-size: 30px;
+	margin-top: 7px;
+}
+
+/*footer css start*/
+
+.footer{
+	overflow: hidden;
+	background-color: #121B2C;
+	padding-top:20px;
+	padding-bottom: 30px;
+}
+.container3{
+	width: 80%;
+	margin: 0 auto
+}
+.bottom-menu{
+	width: 55%;
+	float: left;
+}
+.bottom-menu ul{
+	list-style-type: none;
+}
+.bottom-menu ul li{
+	display: inline-block;
+	text-align: right;
+}
+.bottom-menu ul li:last-child a{
+	border-right: none;
+}
+.bottom-menu ul li:first-child a{
+	padding-left: 0px;
+}
+
+.bottom-menu ul li a{
+	color: #FFFEFF;
+	text-decoration: none;
+	padding:0 10px;
+	text-transform: capitalize;
+	border-right: 1px solid #FFFEFF;
+	transition: 0.3s; 
+}
+.bottom-menu ul li a:hover{
+	color: #046CAB;
+}
+.bottom-menu p{
+	color: #FFFEFF;
+	margin-top: 20px;
+}
+
+.symbain{
+	width: 15px;
+	float: left;
+}
+
+.bottom-logo{
+	width: 19px;
+    float: right;
+    padding-right: 162px;
+    margin-top: 8px;
+}
+.symbain span{
+	font-weight: 900;
+	font-size: 50px;
+	color: #414956;
+	padding-left: 50px;
+}
